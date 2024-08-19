@@ -34,5 +34,11 @@ namespace EjemploModuli1
             FrmCalificacion frm = new FrmCalificacion();
             frm.Show();
         }
+
+        private void btnEjem4_Click(object sender, EventArgs e)
+        {
+            Multiplicar multiplicar = new Multiplicar();
+                multiplicar.Show();
+        }
     }
 }

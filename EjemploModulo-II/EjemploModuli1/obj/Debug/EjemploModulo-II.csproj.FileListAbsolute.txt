@@ -24,3 +24,4 @@ D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploM
 D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModulo-II.csproj.CoreCompileInputs.cache
 D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.exe
 D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.pdb
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.Multiplicar.resources
