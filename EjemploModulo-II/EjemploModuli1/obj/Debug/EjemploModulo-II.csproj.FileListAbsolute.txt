@@ -1,0 +1,26 @@
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModulo-II\EjemploModuli1\bin\Debug\EjemploModuli1.exe.config
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModulo-II\EjemploModuli1\bin\Debug\EjemploModuli1.exe
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModulo-II\EjemploModuli1\bin\Debug\EjemploModuli1.pdb
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModulo-II.csproj.AssemblyReference.cache
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.Form1.resources
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.FrmConteo.resources
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.FrmPrincipal.resources
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.Properties.Resources.resources
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModulo-II.csproj.GenerateResource.cache
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModulo-II.csproj.CoreCompileInputs.cache
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.exe
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.pdb
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.FrmCalificacion.resources
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\bin\Debug\EjemploModuli1.exe.config
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\bin\Debug\EjemploModuli1.exe
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\bin\Debug\EjemploModuli1.pdb
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModulo-II.csproj.AssemblyReference.cache
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.Form1.resources
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.FrmCalificacion.resources
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.FrmConteo.resources
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.FrmPrincipal.resources
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.Properties.Resources.resources
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModulo-II.csproj.GenerateResource.cache
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModulo-II.csproj.CoreCompileInputs.cache
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.exe
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.pdb

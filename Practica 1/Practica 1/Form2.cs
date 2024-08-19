@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Practica_1
 {
-    public partial class Form2 : Form
+    public partial class FormularioNada : Form
     {
-        public Form2()
+        public FormularioNada()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -47,6 +47,18 @@ namespace Practica_1
             double num1 = Convert.ToDouble(Num1TB.Text);
             double num2 = Convert.ToDouble(Num2TB.Text);
             RestTB.Text = Convert.ToString(num1 + num2);
+            //int inicio, fin, suma = 0, contador;
+            //inicio = Convert.ToInt32(Num1TB.Text);
+            //fin = Convert.ToInt32(Num2TB.Text);
+            //if (fin > inicio)
+            //{
+            //    for(int i = inicio ; i <= fin; i++)
+            //    {
+            //        suma += i;
+            //    }
+
+            //}
         }
+
     }
 }

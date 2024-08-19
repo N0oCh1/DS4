@@ -40,9 +40,15 @@ namespace Practica_1
 
         private void button5_Click(object sender, EventArgs e)
         {
+            Action console = () => Console.WriteLine("hola");
             TextBox textBox = new TextBox();
             textBox.Text = "dwaawdwd";
             textBox.Focus();
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
 
         }
     }

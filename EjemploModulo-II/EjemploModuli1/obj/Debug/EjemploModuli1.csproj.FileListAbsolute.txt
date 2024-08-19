@@ -1,0 +1,12 @@
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModuli1\EjemploModuli1\bin\Debug\EjemploModuli1.exe.config
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModuli1\EjemploModuli1\bin\Debug\EjemploModuli1.exe
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModuli1\EjemploModuli1\bin\Debug\EjemploModuli1.pdb
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModuli1\EjemploModuli1\obj\Debug\EjemploModuli1.csproj.AssemblyReference.cache
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModuli1\EjemploModuli1\obj\Debug\EjemploModuli1.Form1.resources
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModuli1\EjemploModuli1\obj\Debug\EjemploModuli1.Properties.Resources.resources
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModuli1\EjemploModuli1\obj\Debug\EjemploModuli1.csproj.GenerateResource.cache
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModuli1\EjemploModuli1\obj\Debug\EjemploModuli1.csproj.CoreCompileInputs.cache
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModuli1\EjemploModuli1\obj\Debug\EjemploModuli1.exe
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModuli1\EjemploModuli1\obj\Debug\EjemploModuli1.pdb
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModuli1\EjemploModuli1\obj\Debug\EjemploModuli1.FrmPrincipal.resources
+C:\Users\JoseChiru\Documents\Visual Studio 2022\Proyecto\EjemploModuli1\EjemploModuli1\obj\Debug\EjemploModuli1.FrmConteo.resources
