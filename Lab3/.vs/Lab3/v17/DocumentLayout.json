@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\UTP\\Desarrollo IV\\proyecto\\Lab3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{616CEADB-E7BD-442D-8930-AFD3B3500926}|Lab3\\Lab3.csproj|d:\\utp\\desarrollo iv\\proyecto\\lab3\\lab3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{616CEADB-E7BD-442D-8930-AFD3B3500926}|Lab3\\Lab3.csproj|solutionrelative:lab3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{616CEADB-E7BD-442D-8930-AFD3B3500926}|Lab3\\Lab3.csproj|D:\\UTP\\Desarrollo IV\\proyecto\\Lab3\\lab3\\frmenunciado1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616CEADB-E7BD-442D-8930-AFD3B3500926}|Lab3\\Lab3.csproj|solutionrelative:lab3\\frmenunciado1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616CEADB-E7BD-442D-8930-AFD3B3500926}|Lab3\\Lab3.csproj|d:\\utp\\desarrollo iv\\proyecto\\lab3\\lab3\\metodosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616CEADB-E7BD-442D-8930-AFD3B3500926}|Lab3\\Lab3.csproj|solutionrelative:lab3\\metodosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616CEADB-E7BD-442D-8930-AFD3B3500926}|Lab3\\Lab3.csproj|D:\\UTP\\Desarrollo IV\\proyecto\\Lab3\\lab3\\enunciado1mg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616CEADB-E7BD-442D-8930-AFD3B3500926}|Lab3\\Lab3.csproj|solutionrelative:lab3\\enunciado1mg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616CEADB-E7BD-442D-8930-AFD3B3500926}|Lab3\\Lab3.csproj|D:\\UTP\\Desarrollo IV\\proyecto\\Lab3\\lab3\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{616CEADB-E7BD-442D-8930-AFD3B3500926}|Lab3\\Lab3.csproj|solutionrelative:lab3\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616CEADB-E7BD-442D-8930-AFD3B3500926}|Lab3\\Lab3.csproj|d:\\utp\\desarrollo iv\\proyecto\\lab3\\lab3\\frmenunciado1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{616CEADB-E7BD-442D-8930-AFD3B3500926}|Lab3\\Lab3.csproj|solutionrelative:lab3\\frmenunciado1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,28 +29,87 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 191,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enunciado1MG.cs",
+              "DocumentMoniker": "D:\\UTP\\Desarrollo IV\\proyecto\\Lab3\\Lab3\\Enunciado1MG.cs",
+              "RelativeDocumentMoniker": "Lab3\\Enunciado1MG.cs",
+              "ToolTip": "D:\\UTP\\Desarrollo IV\\proyecto\\Lab3\\Lab3\\Enunciado1MG.cs",
+              "RelativeToolTip": "Lab3\\Enunciado1MG.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwC4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T13:56:56.919Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmEnunciado1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\UTP\\Desarrollo IV\\proyecto\\Lab3\\Lab3\\frmEnunciado1.cs",
+              "RelativeDocumentMoniker": "Lab3\\frmEnunciado1.cs",
+              "ToolTip": "D:\\UTP\\Desarrollo IV\\proyecto\\Lab3\\Lab3\\frmEnunciado1.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Lab3\\frmEnunciado1.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T13:36:23.453Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\UTP\\Desarrollo IV\\proyecto\\Lab3\\Lab3\\Form1.cs",
-              "RelativeDocumentMoniker": "Lab3\\Form1.cs",
-              "ToolTip": "D:\\UTP\\Desarrollo IV\\proyecto\\Lab3\\Lab3\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Lab3\\Form1.cs [Dise\u00F1o]",
+              "DocumentIndex": 3,
+              "Title": "frmPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\UTP\\Desarrollo IV\\proyecto\\Lab3\\Lab3\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "Lab3\\frmPrincipal.cs",
+              "ToolTip": "D:\\UTP\\Desarrollo IV\\proyecto\\Lab3\\Lab3\\frmPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Lab3\\frmPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T00:26:41.812Z",
               "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 209,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MetodosGenerales.cs",
+              "DocumentMoniker": "D:\\UTP\\Desarrollo IV\\proyecto\\Lab3\\Lab3\\MetodosGenerales.cs",
+              "RelativeDocumentMoniker": "Lab3\\MetodosGenerales.cs",
+              "ToolTip": "D:\\UTP\\Desarrollo IV\\proyecto\\Lab3\\Lab3\\MetodosGenerales.cs",
+              "RelativeToolTip": "Lab3\\MetodosGenerales.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T21:35:25.766Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmEnunciado1.cs",
+              "DocumentMoniker": "D:\\UTP\\Desarrollo IV\\proyecto\\Lab3\\Lab3\\frmEnunciado1.cs",
+              "RelativeDocumentMoniker": "Lab3\\frmEnunciado1.cs",
+              "ToolTip": "D:\\UTP\\Desarrollo IV\\proyecto\\Lab3\\Lab3\\frmEnunciado1.cs*",
+              "RelativeToolTip": "Lab3\\frmEnunciado1.cs*",
+              "ViewState": "AQIAADQAAAAAAAAAAAAYwE8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T13:41:59.539Z",
+              "EditorCaption": ""
             }
           ]
         }
