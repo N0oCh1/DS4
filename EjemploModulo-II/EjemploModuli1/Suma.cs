@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace EjemploModuli1
 {
-    public partial class Form1 : Form
+    public partial class Suma : Form
     {
-        public Form1()
+        public Suma()
         {
             InitializeComponent();
         }

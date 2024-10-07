@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,12 +47,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="General.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Factorial.cs" />
+    <Compile Include="FrmSumaArchivo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmSumaArchivo.Designer.cs">
+      <DependentUpon>FrmSumaArchivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSVector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSVector.Designer.cs">
+      <DependentUpon>FrmSVector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmfactorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmfactorial.Designer.cs">
+      <DependentUpon>Frmfactorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRecursiva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRecursiva.Designer.cs">
+      <DependentUpon>FrmRecursiva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General.cs" />
+    <Compile Include="Suma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suma.Designer.cs">
+      <DependentUpon>Suma.cs</DependentUpon>
     </Compile>
     <Compile Include="Multiplicar.cs">
       <SubType>Form</SubType>
@@ -79,8 +105,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FrmSumaArchivo.resx">
+      <DependentUpon>FrmSumaArchivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSVector.resx">
+      <DependentUpon>FrmSVector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suma.resx">
+      <DependentUpon>Suma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmfactorial.resx">
+      <DependentUpon>Frmfactorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRecursiva.resx">
+      <DependentUpon>FrmRecursiva.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Multiplicar.resx">
       <DependentUpon>Multiplicar.cs</DependentUpon>

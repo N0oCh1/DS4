@@ -19,7 +19,7 @@ namespace EjemploModuli1
 
         private void btn1_Click(object sender, EventArgs e)
         {
-            Form1 objForm1 = new Form1();
+            Suma objForm1 = new Suma();
             objForm1.Show();
         }
 
@@ -39,6 +39,29 @@ namespace EjemploModuli1
         {
             Multiplicar multiplicar = new Multiplicar();
                 multiplicar.Show();
+        }
+
+        private void btnEjemplo6_Click(object sender, EventArgs e)
+        {
+            Frmfactorial frmfactorial = new Frmfactorial();
+            frmfactorial.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn7_Click(object sender, EventArgs e)
+        {
+            FrmSumaVec frmSumaVec = new FrmSumaVec();
+            frmSumaVec.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmSumaArchivo frmSumaArchivo = new FrmSumaArchivo();
+            frmSumaArchivo.Show();
         }
     }
 }

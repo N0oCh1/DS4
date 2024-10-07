@@ -15,7 +15,6 @@ D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\bin\Debug\EjemploM
 D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\bin\Debug\EjemploModuli1.exe
 D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\bin\Debug\EjemploModuli1.pdb
 D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModulo-II.csproj.AssemblyReference.cache
-D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.Form1.resources
 D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.FrmCalificacion.resources
 D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.FrmConteo.resources
 D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.FrmPrincipal.resources
@@ -25,3 +24,8 @@ D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploM
 D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.exe
 D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.pdb
 D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.Multiplicar.resources
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.Frmfactorial.resources
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.Form2.resources
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.FrmSumaVec.resources
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.Suma.resources
+D:\UTP\Desarrollo IV\proyecto\EjemploModulo-II\EjemploModuli1\obj\Debug\EjemploModuli1.FrmSumaArchivo.resources

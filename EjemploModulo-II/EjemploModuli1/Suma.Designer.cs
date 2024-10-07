@@ -1,6 +1,6 @@
 ﻿namespace EjemploModuli1
 {
-    partial class Form1
+    partial class Suma
     {
         /// <summary>
         /// Variable del diseñador necesaria.
