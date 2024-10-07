@@ -29,5 +29,13 @@ namespace Lab3
             frmEnunciado1.WindowState = FormWindowState.Maximized;
             frmEnunciado1.Show();
         }
+
+        private void enunciado3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmEnunciado3 frmEnunciado3 = new frmEnunciado3();
+            frmEnunciado3.MdiParent = this;
+            frmEnunciado3.WindowState = FormWindowState.Maximized;
+            frmEnunciado3.Show();
+        }
     }
 }
