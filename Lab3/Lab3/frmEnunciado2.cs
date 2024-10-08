@@ -16,13 +16,7 @@ namespace Lab3
         public frmEnunciado2()
         {
             InitializeComponent();
-        }
-
-        private void frmEnunciado2_Load(object sender, EventArgs e)
-        {  
-            dgvLista.ColumnCount = 1;
-            dgvLista.Columns[0].Name = "Número";
-        }
+        } 
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
@@ -30,8 +24,9 @@ namespace Lab3
         }
 
         private void btnEliminarIguales_Click(object sender, EventArgs e)
-        {
+        {  
             OperacionesNumeros.eliminarNumero(txtEliminar.Text, dgvLista);
+            txtEliminar.Clear();
         }
     }
 }
