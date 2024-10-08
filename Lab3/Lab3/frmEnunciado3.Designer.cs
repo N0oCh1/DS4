@@ -38,13 +38,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.lstImportesClasif = new System.Windows.Forms.ListBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dgvClasif = new System.Windows.Forms.DataGridView();
             this.grpVentas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nupCantVentas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvOrdenado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMontosVentas)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvClasif)).BeginInit();
             this.SuspendLayout();
             // 
             // grpVentas
@@ -70,6 +71,7 @@
             this.btnClasificar.TabIndex = 9;
             this.btnClasificar.Text = "Clasificar";
             this.btnClasificar.UseVisualStyleBackColor = true;
+            this.btnClasificar.Click += new System.EventHandler(this.btnClasificar_Click);
             // 
             // btnOrdenar
             // 
@@ -80,6 +82,7 @@
             this.btnOrdenar.TabIndex = 8;
             this.btnOrdenar.Text = "Ordenar";
             this.btnOrdenar.UseVisualStyleBackColor = true;
+            this.btnOrdenar.Click += new System.EventHandler(this.btnOrdenar_Click);
             // 
             // label1
             // 
@@ -164,28 +167,33 @@
             this.label2.Text = "Montos por introducir";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lstImportesClasif
-            // 
-            this.lstImportesClasif.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lstImportesClasif.FormattingEnabled = true;
-            this.lstImportesClasif.ItemHeight = 29;
-            this.lstImportesClasif.Location = new System.Drawing.Point(603, 72);
-            this.lstImportesClasif.Name = "lstImportesClasif";
-            this.lstImportesClasif.Size = new System.Drawing.Size(254, 468);
-            this.lstImportesClasif.TabIndex = 0;
-            // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.dgvClasif);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.dgvOrdenado);
-            this.panel1.Controls.Add(this.lstImportesClasif);
             this.panel1.Controls.Add(this.dgvMontosVentas);
             this.panel1.Location = new System.Drawing.Point(321, 37);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(877, 554);
             this.panel1.TabIndex = 12;
+            // 
+            // dgvClasif
+            // 
+            this.dgvClasif.AllowUserToAddRows = false;
+            this.dgvClasif.AllowUserToDeleteRows = false;
+            this.dgvClasif.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvClasif.BackgroundColor = System.Drawing.Color.White;
+            this.dgvClasif.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvClasif.Location = new System.Drawing.Point(602, 69);
+            this.dgvClasif.Name = "dgvClasif";
+            this.dgvClasif.ReadOnly = true;
+            this.dgvClasif.RowHeadersWidth = 62;
+            this.dgvClasif.RowTemplate.Height = 28;
+            this.dgvClasif.Size = new System.Drawing.Size(255, 471);
+            this.dgvClasif.TabIndex = 12;
             // 
             // frmEnunciado3
             // 
@@ -204,6 +212,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvMontosVentas)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvClasif)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -211,7 +220,6 @@
         #endregion
 
         private System.Windows.Forms.GroupBox grpVentas;
-        private System.Windows.Forms.ListBox lstImportesClasif;
         private System.Windows.Forms.NumericUpDown nupCantVentas;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
@@ -222,5 +230,6 @@
         private System.Windows.Forms.DataGridView dgvMontosVentas;
         private System.Windows.Forms.DataGridView dgvOrdenado;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.DataGridView dgvClasif;
     }
 }
