@@ -67,7 +67,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(93, 42);
+            this.label1.Location = new System.Drawing.Point(18, -1);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(109, 17);
@@ -142,7 +142,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(18, 0);
+            this.label5.Location = new System.Drawing.Point(18, -1);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(136, 17);
@@ -215,7 +215,7 @@
             this.btnNuevo.Location = new System.Drawing.Point(432, 101);
             this.btnNuevo.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnNuevo.Padding = new System.Windows.Forms.Padding(6);
             this.btnNuevo.Size = new System.Drawing.Size(113, 45);
             this.btnNuevo.TabIndex = 5;
             this.btnNuevo.Text = "Nuevo";
@@ -340,7 +340,7 @@
             this.btnAbrirCuenta.Location = new System.Drawing.Point(473, 81);
             this.btnAbrirCuenta.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnAbrirCuenta.Name = "btnAbrirCuenta";
-            this.btnAbrirCuenta.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnAbrirCuenta.Padding = new System.Windows.Forms.Padding(6);
             this.btnAbrirCuenta.Size = new System.Drawing.Size(129, 45);
             this.btnAbrirCuenta.TabIndex = 4;
             this.btnAbrirCuenta.Text = "Abrir Cuenta";
@@ -353,6 +353,7 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.lblErrorMontobl);
             this.panel1.Controls.Add(this.lblErrorMonto);
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.lblErrorCliente);
             this.panel1.Controls.Add(this.btnAbrirCuenta);
             this.panel1.Controls.Add(this.tbMonto);
@@ -407,10 +408,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(685, 487);
+            this.ClientSize = new System.Drawing.Size(806, 487);
             this.Controls.Add(this.pnlCuentaAhorro);
             this.Controls.Add(this.pnlTransaccion);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "frmEnunciado1";
@@ -424,7 +424,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

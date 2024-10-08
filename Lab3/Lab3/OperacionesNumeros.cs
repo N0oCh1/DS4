@@ -2,18 +2,16 @@
 using System.Windows.Forms;
 using System;
 
-public static class OperacionesNumeros  
+public static class OperacionesNumeros
 {
-    
     private static List<int> listaNumeros = new List<int>();
 
-    
-    public static void AgregarNumero(string input, DataGridView dgv)
+    public static void agregarNumero(string input, DataGridView dgv)
     {
         if (int.TryParse(input, out int numero))
         {
-            listaNumeros.Add(numero);  
-            ActualizarDataGridView(dgv);
+            listaNumeros.Add(numero);
+            actualizarDataGridView(dgv);
         }
         else
         {
@@ -21,13 +19,12 @@ public static class OperacionesNumeros
         }
     }
 
-   
-    public static void EliminarNumero(string input, DataGridView dgv)
+    public static void eliminarNumero(string input, DataGridView dgv)
     {
         if (int.TryParse(input, out int numeroAEliminar))
         {
-            listaNumeros.RemoveAll(n => n == numeroAEliminar); 
-            ActualizarDataGridView(dgv); 
+            listaNumeros.RemoveAll(n => n == numeroAEliminar);
+            actualizarDataGridView(dgv);
         }
         else
         {
@@ -35,28 +32,24 @@ public static class OperacionesNumeros
         }
     }
 
-    
-    public static void ActualizarDataGridView(DataGridView dgv)
+    public static void actualizarDataGridView(DataGridView dgv)
     {
-        dgv.Columns.Clear(); 
+        dgv.Columns.Clear();
 
         for (int i = 0; i < listaNumeros.Count; i++)
         {
             dgv.Columns.Add($"Columna{i}", $"Número {i + 1}");
 
-            
+            // Asegurarse de que haya al menos una fila por si acaso aunque tecnicamente no deberia ocurrir
             if (dgv.Rows.Count == 0)
             {
                 dgv.Rows.Add();
-            }
-
-            
+            }          
             dgv.Rows[0].Cells[i].Value = listaNumeros[i];
         }
     }
 
-    
-    public static List<int> ObtenerLista()
+    public static List<int> obtenerLista()
     {
         return listaNumeros;
     }

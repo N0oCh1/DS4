@@ -12,6 +12,7 @@ namespace Lab3
 {
     public partial class frmEnunciado1 : Form
     {
+     
         private Enunciado1MG Banco = new Enunciado1MG();
         private MetodosGenerales mg = new MetodosGenerales();
         public frmEnunciado1()

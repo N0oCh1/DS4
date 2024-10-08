@@ -82,6 +82,8 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.mnsPrincipal;
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulario principal";
