@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
             this.mnsPrincipal = new System.Windows.Forms.MenuStrip();
             this.cuentaDeAhorroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enunciado2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -77,12 +78,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(819, 504);
             this.Controls.Add(this.mnsPrincipal);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.mnsPrincipal;
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Formulari principal";
+            this.Text = "Formulario principal";
             this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.mnsPrincipal.ResumeLayout(false);
             this.mnsPrincipal.PerformLayout();
