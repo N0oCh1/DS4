@@ -37,5 +37,10 @@ namespace Lab3
             frmEnunciado3.WindowState = FormWindowState.Maximized;
             frmEnunciado3.Show();
         }
+
+        private void enunciado2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
