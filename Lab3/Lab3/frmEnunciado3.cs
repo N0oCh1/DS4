@@ -18,10 +18,17 @@ namespace Lab3
             InitializeComponent();
         }
 
-        private void nupCantVentas_ValueChanged(object sender, KeyEventArgs e)
+        private void nupCantVentas_ValueChanged(object sender, EventArgs e)
         {
             cantidad = Convert.ToInt32(nupCantVentas.Value);
-            
+            if (cantidad > 0) 
+            {
+                dgvMontosVentas.ColumnCount = 1;
+                dgvMontosVentas.RowCount = cantidad;
+
+                dgvOrdenado.ColumnCount = 1;
+                dgvOrdenado.RowCount = cantidad;
+            }
         }
     }
 }

@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enunc3.cs" />
     <Compile Include="Enunciado1MG.cs" />
     <Compile Include="frmEnunciado1.cs">
       <SubType>Form</SubType>

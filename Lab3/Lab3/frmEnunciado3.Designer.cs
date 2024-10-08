@@ -35,27 +35,27 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.nupCantVentas = new System.Windows.Forms.NumericUpDown();
-            this.dgvMontosVentas = new System.Windows.Forms.DataGridView();
             this.lstImportesClasif = new System.Windows.Forms.ListBox();
+            this.dgvMontosVentas = new System.Windows.Forms.DataGridView();
+            this.dgvOrdenado = new System.Windows.Forms.DataGridView();
             this.grpVentas.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupCantVentas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMontosVentas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvOrdenado)).BeginInit();
             this.SuspendLayout();
             // 
             // grpVentas
             // 
+            this.grpVentas.Controls.Add(this.dgvOrdenado);
+            this.grpVentas.Controls.Add(this.dgvMontosVentas);
             this.grpVentas.Controls.Add(this.btnClasificar);
             this.grpVentas.Controls.Add(this.btnOrdenar);
             this.grpVentas.Controls.Add(this.label4);
             this.grpVentas.Controls.Add(this.label3);
             this.grpVentas.Controls.Add(this.label2);
             this.grpVentas.Controls.Add(this.label1);
-            this.grpVentas.Controls.Add(this.dataGridView1);
             this.grpVentas.Controls.Add(this.nupCantVentas);
-            this.grpVentas.Controls.Add(this.dgvMontosVentas);
             this.grpVentas.Controls.Add(this.lstImportesClasif);
             this.grpVentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpVentas.Location = new System.Drawing.Point(12, 12);
@@ -87,56 +87,47 @@
             // 
             // label4
             // 
+            this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(825, 61);
+            this.label4.Location = new System.Drawing.Point(860, 61);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(259, 26);
+            this.label4.Size = new System.Drawing.Size(193, 26);
             this.label4.TabIndex = 7;
             this.label4.Text = "Entre $50 y $287";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
+            this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(567, 61);
+            this.label3.Location = new System.Drawing.Point(580, 59);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(227, 26);
+            this.label3.Size = new System.Drawing.Size(207, 26);
             this.label3.TabIndex = 6;
             this.label3.Text = "Montos ordenados";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
+            this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(298, 58);
+            this.label2.Location = new System.Drawing.Point(300, 59);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(238, 26);
+            this.label2.Size = new System.Drawing.Size(236, 26);
             this.label2.TabIndex = 5;
             this.label2.Text = "Montos por introducir";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
+            this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(15, 59);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(243, 29);
+            this.label1.Size = new System.Drawing.Size(240, 29);
             this.label1.TabIndex = 4;
             this.label1.Text = "Cantidad de Ventas";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToResizeColumns = false;
-            this.dataGridView1.AllowUserToResizeRows = false;
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(572, 110);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(222, 468);
-            this.dataGridView1.TabIndex = 3;
             // 
             // nupCantVentas
             // 
@@ -145,22 +136,6 @@
             this.nupCantVentas.Name = "nupCantVentas";
             this.nupCantVentas.Size = new System.Drawing.Size(238, 35);
             this.nupCantVentas.TabIndex = 2;
-            this.nupCantVentas.ValueChanged += new System.EventHandler(this.nupCantVentas_ValueChanged);
-            // 
-            // dgvMontosVentas
-            // 
-            this.dgvMontosVentas.AllowUserToAddRows = false;
-            this.dgvMontosVentas.AllowUserToDeleteRows = false;
-            this.dgvMontosVentas.AllowUserToResizeColumns = false;
-            this.dgvMontosVentas.AllowUserToResizeRows = false;
-            this.dgvMontosVentas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvMontosVentas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMontosVentas.Location = new System.Drawing.Point(298, 108);
-            this.dgvMontosVentas.Name = "dgvMontosVentas";
-            this.dgvMontosVentas.RowHeadersWidth = 62;
-            this.dgvMontosVentas.RowTemplate.Height = 28;
-            this.dgvMontosVentas.Size = new System.Drawing.Size(238, 468);
-            this.dgvMontosVentas.TabIndex = 1;
             // 
             // lstImportesClasif
             // 
@@ -172,6 +147,30 @@
             this.lstImportesClasif.Size = new System.Drawing.Size(254, 468);
             this.lstImportesClasif.TabIndex = 0;
             // 
+            // dgvMontosVentas
+            // 
+            this.dgvMontosVentas.AllowUserToAddRows = false;
+            this.dgvMontosVentas.AllowUserToDeleteRows = false;
+            this.dgvMontosVentas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvMontosVentas.Location = new System.Drawing.Point(305, 108);
+            this.dgvMontosVentas.Name = "dgvMontosVentas";
+            this.dgvMontosVentas.RowHeadersWidth = 62;
+            this.dgvMontosVentas.RowTemplate.Height = 28;
+            this.dgvMontosVentas.Size = new System.Drawing.Size(231, 471);
+            this.dgvMontosVentas.TabIndex = 10;
+            // 
+            // dgvOrdenado
+            // 
+            this.dgvOrdenado.AllowUserToAddRows = false;
+            this.dgvOrdenado.AllowUserToDeleteRows = false;
+            this.dgvOrdenado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvOrdenado.Location = new System.Drawing.Point(568, 108);
+            this.dgvOrdenado.Name = "dgvOrdenado";
+            this.dgvOrdenado.RowHeadersWidth = 62;
+            this.dgvOrdenado.RowTemplate.Height = 28;
+            this.dgvOrdenado.Size = new System.Drawing.Size(231, 471);
+            this.dgvOrdenado.TabIndex = 11;
+            // 
             // frmEnunciado3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -182,9 +181,10 @@
             this.Name = "frmEnunciado3";
             this.Text = "frmEnunciado3";
             this.grpVentas.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.grpVentas.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nupCantVentas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMontosVentas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvOrdenado)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -193,14 +193,14 @@
 
         private System.Windows.Forms.GroupBox grpVentas;
         private System.Windows.Forms.ListBox lstImportesClasif;
-        private System.Windows.Forms.DataGridView dgvMontosVentas;
         private System.Windows.Forms.NumericUpDown nupCantVentas;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnOrdenar;
         private System.Windows.Forms.Button btnClasificar;
+        private System.Windows.Forms.DataGridView dgvMontosVentas;
+        private System.Windows.Forms.DataGridView dgvOrdenado;
     }
 }
