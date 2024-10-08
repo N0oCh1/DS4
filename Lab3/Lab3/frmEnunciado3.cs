@@ -18,10 +18,11 @@ namespace Lab3
             InitializeComponent();
         }
 
-        private void nupCantVentas_ValueChanged(object sender, EventArgs e)
+
+        private void nupCantVentas_ValueChanged_1(object sender, EventArgs e)
         {
             cantidad = Convert.ToInt32(nupCantVentas.Value);
-            if (cantidad > 0) 
+            if (cantidad >= 0)
             {
                 dgvMontosVentas.ColumnCount = 1;
                 dgvMontosVentas.RowCount = cantidad;
