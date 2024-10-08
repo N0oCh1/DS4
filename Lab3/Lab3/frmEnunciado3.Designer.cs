@@ -149,8 +149,7 @@
             // 
             // dgvMontosVentas
             // 
-            this.dgvMontosVentas.AllowUserToAddRows = false;
-            this.dgvMontosVentas.AllowUserToDeleteRows = false;
+            this.dgvMontosVentas.AllowUserToResizeColumns = false;
             this.dgvMontosVentas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvMontosVentas.Location = new System.Drawing.Point(305, 108);
             this.dgvMontosVentas.Name = "dgvMontosVentas";
