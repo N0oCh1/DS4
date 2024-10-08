@@ -55,9 +55,11 @@
             this.grpVentas.Controls.Add(this.label1);
             this.grpVentas.Controls.Add(this.nupCantVentas);
             this.grpVentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpVentas.Location = new System.Drawing.Point(36, 37);
+            this.grpVentas.Location = new System.Drawing.Point(24, 24);
+            this.grpVentas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grpVentas.Name = "grpVentas";
-            this.grpVentas.Size = new System.Drawing.Size(279, 554);
+            this.grpVentas.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpVentas.Size = new System.Drawing.Size(186, 360);
             this.grpVentas.TabIndex = 0;
             this.grpVentas.TabStop = false;
             this.grpVentas.Text = "Datos de Ventas";
@@ -65,9 +67,10 @@
             // btnClasificar
             // 
             this.btnClasificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClasificar.Location = new System.Drawing.Point(20, 243);
+            this.btnClasificar.Location = new System.Drawing.Point(13, 158);
+            this.btnClasificar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnClasificar.Name = "btnClasificar";
-            this.btnClasificar.Size = new System.Drawing.Size(238, 38);
+            this.btnClasificar.Size = new System.Drawing.Size(159, 25);
             this.btnClasificar.TabIndex = 9;
             this.btnClasificar.Text = "Clasificar";
             this.btnClasificar.UseVisualStyleBackColor = true;
@@ -76,9 +79,10 @@
             // btnOrdenar
             // 
             this.btnOrdenar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrdenar.Location = new System.Drawing.Point(20, 181);
+            this.btnOrdenar.Location = new System.Drawing.Point(13, 118);
+            this.btnOrdenar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnOrdenar.Name = "btnOrdenar";
-            this.btnOrdenar.Size = new System.Drawing.Size(238, 38);
+            this.btnOrdenar.Size = new System.Drawing.Size(159, 25);
             this.btnOrdenar.TabIndex = 8;
             this.btnOrdenar.Text = "Ordenar";
             this.btnOrdenar.UseVisualStyleBackColor = true;
@@ -88,9 +92,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(15, 59);
+            this.label1.Location = new System.Drawing.Point(10, 38);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(240, 29);
+            this.label1.Size = new System.Drawing.Size(168, 20);
             this.label1.TabIndex = 4;
             this.label1.Text = "Cantidad de Ventas";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -98,9 +103,10 @@
             // nupCantVentas
             // 
             this.nupCantVentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nupCantVentas.Location = new System.Drawing.Point(20, 108);
+            this.nupCantVentas.Location = new System.Drawing.Point(13, 70);
+            this.nupCantVentas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.nupCantVentas.Name = "nupCantVentas";
-            this.nupCantVentas.Size = new System.Drawing.Size(238, 35);
+            this.nupCantVentas.Size = new System.Drawing.Size(159, 26);
             this.nupCantVentas.TabIndex = 2;
             this.nupCantVentas.ValueChanged += new System.EventHandler(this.nupCantVentas_ValueChanged_1);
             // 
@@ -111,12 +117,13 @@
             this.dgvOrdenado.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvOrdenado.BackgroundColor = System.Drawing.Color.White;
             this.dgvOrdenado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvOrdenado.Location = new System.Drawing.Point(312, 69);
+            this.dgvOrdenado.Location = new System.Drawing.Point(208, 45);
+            this.dgvOrdenado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvOrdenado.Name = "dgvOrdenado";
             this.dgvOrdenado.ReadOnly = true;
             this.dgvOrdenado.RowHeadersWidth = 62;
             this.dgvOrdenado.RowTemplate.Height = 28;
-            this.dgvOrdenado.Size = new System.Drawing.Size(255, 471);
+            this.dgvOrdenado.Size = new System.Drawing.Size(170, 306);
             this.dgvOrdenado.TabIndex = 11;
             // 
             // dgvMontosVentas
@@ -127,20 +134,22 @@
             this.dgvMontosVentas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvMontosVentas.BackgroundColor = System.Drawing.Color.White;
             this.dgvMontosVentas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMontosVentas.Location = new System.Drawing.Point(24, 69);
+            this.dgvMontosVentas.Location = new System.Drawing.Point(16, 45);
+            this.dgvMontosVentas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvMontosVentas.Name = "dgvMontosVentas";
             this.dgvMontosVentas.RowHeadersWidth = 62;
             this.dgvMontosVentas.RowTemplate.Height = 28;
-            this.dgvMontosVentas.Size = new System.Drawing.Size(252, 471);
+            this.dgvMontosVentas.Size = new System.Drawing.Size(168, 306);
             this.dgvMontosVentas.TabIndex = 10;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(633, 22);
+            this.label4.Location = new System.Drawing.Point(422, 14);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(193, 26);
+            this.label4.Size = new System.Drawing.Size(134, 18);
             this.label4.TabIndex = 7;
             this.label4.Text = "Entre $50 y $287";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -149,9 +158,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(336, 22);
+            this.label3.Location = new System.Drawing.Point(224, 14);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(207, 26);
+            this.label3.Size = new System.Drawing.Size(150, 18);
             this.label3.TabIndex = 6;
             this.label3.Text = "Montos ordenados";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -160,9 +170,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(30, 22);
+            this.label2.Location = new System.Drawing.Point(20, 14);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(236, 26);
+            this.label2.Size = new System.Drawing.Size(171, 18);
             this.label2.TabIndex = 5;
             this.label2.Text = "Montos por introducir";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -175,9 +186,10 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.dgvOrdenado);
             this.panel1.Controls.Add(this.dgvMontosVentas);
-            this.panel1.Location = new System.Drawing.Point(321, 37);
+            this.panel1.Location = new System.Drawing.Point(214, 24);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(877, 554);
+            this.panel1.Size = new System.Drawing.Size(585, 360);
             this.panel1.TabIndex = 12;
             // 
             // dgvClasif
@@ -187,22 +199,24 @@
             this.dgvClasif.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvClasif.BackgroundColor = System.Drawing.Color.White;
             this.dgvClasif.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvClasif.Location = new System.Drawing.Point(602, 69);
+            this.dgvClasif.Location = new System.Drawing.Point(401, 45);
+            this.dgvClasif.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvClasif.Name = "dgvClasif";
             this.dgvClasif.ReadOnly = true;
             this.dgvClasif.RowHeadersWidth = 62;
             this.dgvClasif.RowTemplate.Height = 28;
-            this.dgvClasif.Size = new System.Drawing.Size(255, 471);
+            this.dgvClasif.Size = new System.Drawing.Size(170, 306);
             this.dgvClasif.TabIndex = 12;
             // 
             // frmEnunciado3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1224, 620);
+            this.ClientSize = new System.Drawing.Size(826, 403);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.grpVentas);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmEnunciado3";
             this.Text = "frmEnunciado3";
             this.grpVentas.ResumeLayout(false);
