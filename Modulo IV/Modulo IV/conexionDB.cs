@@ -8,7 +8,7 @@ using Npgsql;
 
 namespace Modulo_IV
 {
-    internal class conexionDB
+    internal class conexionDB: IDisposable
     {
         private string servidor="";
         private string baseDatos = "";
@@ -25,7 +25,7 @@ namespace Modulo_IV
         {
             string cadenaConexion = "";
         }
-        public void lecturaXML() 
+        public void lecturaXML()   
         {
             string rutaXML = "../../config/configDB.xml";
             XmlDocument xmlDocument = new XmlDocument();
@@ -48,6 +48,10 @@ namespace Modulo_IV
         private string decode64(string str)
         {
             return Encoding.UTF8.GetString(Convert.FromBase64String(str));
+        }
+
+        public void Dispose() 
+        {
         }
     }
 }

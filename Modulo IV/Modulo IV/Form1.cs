@@ -16,5 +16,23 @@ namespace Modulo_IV
         {
             InitializeComponent();
         }
+
+        private void btnInciar_Click(object sender, EventArgs e)
+        {
+            using (conexionDB conexion = new conexionDB())
+            {
+                conexion.conectar();
+                if (conexion.getSocket().State == ConnectionState.Open)
+                {
+                    MessageBox.Show("conexion abierta");
+
+                }
+                else
+                {
+
+
+                }
+            }
+        }
     }
 }
