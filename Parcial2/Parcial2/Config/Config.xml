@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+<!--mala practica de seguridad, no se codifico para mayor comodidad para el profesor a la hora de poner sus credenciales-->
+	<host>localhost</host>
+	<port>5432</port>
+	<dbname>farmacia</dbname>
+	<user>postgres</user> <!--cambiar si tienes un usuario y contraseña diferente-->
+	<password>admin</password>
+</config>

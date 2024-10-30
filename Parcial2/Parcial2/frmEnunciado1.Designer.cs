@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.btnGraficar = new System.Windows.Forms.Button();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -49,6 +52,8 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.label8 = new System.Windows.Forms.Label();
             this.txtX1 = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.txtY = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.label9 = new System.Windows.Forms.Label();
             this.txtX2 = new System.Windows.Forms.TextBox();
@@ -57,19 +62,16 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.txtY = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
+            this.plPrincipal = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbGrafica)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.plPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -82,10 +84,41 @@
             this.panel1.Controls.Add(this.btnGraficar);
             this.panel1.Controls.Add(this.btnCalcular);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(13, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1003, 150);
             this.panel1.TabIndex = 0;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(479, 50);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(398, 20);
+            this.label20.TabIndex = 15;
+            this.label20.Text = "Eje. 1X^2 + 1X + C para ecuacion de segundo grado";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(4, 50);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(383, 20);
+            this.label19.TabIndex = 14;
+            this.label19.Text = "Eje. 0X^2 + 1X + C para ecuacion de primer grado";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(3, 12);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(807, 25);
+            this.label16.TabIndex = 13;
+            this.label16.Text = "Para calcular Ecuaciones tienes que poner 0 en A o en B para elegir el grado de l" +
+    "a ecuacion\r\n";
             // 
             // btnGraficar
             // 
@@ -266,7 +299,7 @@
             this.pbGrafica.BackColor = System.Drawing.Color.Silver;
             this.pbGrafica.ErrorImage = null;
             this.pbGrafica.ImageLocation = "ll";
-            this.pbGrafica.Location = new System.Drawing.Point(12, 200);
+            this.pbGrafica.Location = new System.Drawing.Point(13, 203);
             this.pbGrafica.Name = "pbGrafica";
             this.pbGrafica.Size = new System.Drawing.Size(600, 600);
             this.pbGrafica.TabIndex = 1;
@@ -281,7 +314,7 @@
             this.flowLayoutPanel1.Controls.Add(this.txtX1);
             this.flowLayoutPanel1.Controls.Add(this.label15);
             this.flowLayoutPanel1.Controls.Add(this.txtY);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(635, 209);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(639, 218);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(8);
             this.flowLayoutPanel1.Size = new System.Drawing.Size(380, 52);
@@ -308,13 +341,34 @@
             this.txtX1.Size = new System.Drawing.Size(100, 30);
             this.txtX1.TabIndex = 1;
             // 
+            // label15
+            // 
+            this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(182, 13);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(47, 25);
+            this.label15.TabIndex = 2;
+            this.label15.Text = "Y = ";
+            // 
+            // txtY
+            // 
+            this.txtY.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtY.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtY.Location = new System.Drawing.Point(235, 11);
+            this.txtY.Name = "txtY";
+            this.txtY.ReadOnly = true;
+            this.txtY.Size = new System.Drawing.Size(100, 30);
+            this.txtY.TabIndex = 3;
+            // 
             // flowLayoutPanel2
             // 
             this.flowLayoutPanel2.AutoSize = true;
             this.flowLayoutPanel2.BackColor = System.Drawing.Color.White;
             this.flowLayoutPanel2.Controls.Add(this.label9);
             this.flowLayoutPanel2.Controls.Add(this.txtX2);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(635, 282);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(639, 291);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Padding = new System.Windows.Forms.Padding(8);
             this.flowLayoutPanel2.Size = new System.Drawing.Size(380, 52);
@@ -388,48 +442,16 @@
             this.panel3.Controls.Add(this.lbX);
             this.panel3.Controls.Add(this.lbY);
             this.panel3.Controls.Add(this.label10);
-            this.panel3.Location = new System.Drawing.Point(636, 392);
+            this.panel3.Location = new System.Drawing.Point(657, 383);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(354, 427);
             this.panel3.TabIndex = 7;
-            // 
-            // label15
-            // 
-            this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(182, 13);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(47, 25);
-            this.label15.TabIndex = 2;
-            this.label15.Text = "Y = ";
-            // 
-            // txtY
-            // 
-            this.txtY.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtY.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtY.Location = new System.Drawing.Point(235, 11);
-            this.txtY.Name = "txtY";
-            this.txtY.ReadOnly = true;
-            this.txtY.Size = new System.Drawing.Size(100, 30);
-            this.txtY.TabIndex = 3;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(3, 12);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(807, 25);
-            this.label16.TabIndex = 13;
-            this.label16.Text = "Para calcular Ecuaciones tienes que poner 0 en A o en B para elegir el grado de l" +
-    "a ecuacion\r\n";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(664, 175);
+            this.label17.Location = new System.Drawing.Point(668, 184);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(235, 22);
             this.label17.TabIndex = 14;
@@ -439,47 +461,36 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(646, 364);
+            this.label18.Location = new System.Drawing.Point(667, 355);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(272, 25);
             this.label18.TabIndex = 15;
             this.label18.Text = "coordenadas de los puntos";
             // 
-            // label19
+            // plPrincipal
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(4, 50);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(383, 20);
-            this.label19.TabIndex = 14;
-            this.label19.Text = "Eje. 0X^2 + 1X + C para ecuacion de primer grado";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(479, 50);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(398, 20);
-            this.label20.TabIndex = 15;
-            this.label20.Text = "Eje. 1X^2 + 1X + C para ecuacion de segundo grado";
+            this.plPrincipal.Controls.Add(this.panel1);
+            this.plPrincipal.Controls.Add(this.label18);
+            this.plPrincipal.Controls.Add(this.panel3);
+            this.plPrincipal.Controls.Add(this.pbGrafica);
+            this.plPrincipal.Controls.Add(this.label17);
+            this.plPrincipal.Controls.Add(this.flowLayoutPanel2);
+            this.plPrincipal.Controls.Add(this.flowLayoutPanel1);
+            this.plPrincipal.Location = new System.Drawing.Point(12, 12);
+            this.plPrincipal.Name = "plPrincipal";
+            this.plPrincipal.Size = new System.Drawing.Size(1032, 821);
+            this.plPrincipal.TabIndex = 16;
             // 
             // frmEnunciado1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.YellowGreen;
-            this.ClientSize = new System.Drawing.Size(1048, 523);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.pbGrafica);
-            this.Controls.Add(this.flowLayoutPanel2);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(1679, 870);
+            this.Controls.Add(this.plPrincipal);
             this.Name = "frmEnunciado1";
             this.Text = "frmEnunciado1";
+            this.Load += new System.EventHandler(this.frmEnunciado1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -491,8 +502,9 @@
             this.flowLayoutPanel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.plPrincipal.ResumeLayout(false);
+            this.plPrincipal.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -534,5 +546,6 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Panel plPrincipal;
     }
 }

@@ -29,5 +29,18 @@ namespace Parcial2
         {
 
         }
+
+        private void enunciado2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmEnunciado2 frmEnunciado2 = new frmEnunciado2();
+            frmEnunciado2.MdiParent = this;
+            frmEnunciado2.WindowState = FormWindowState.Maximized;
+            frmEnunciado2.Show();
+        }
+
+        private void frmMenuPrincipal_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

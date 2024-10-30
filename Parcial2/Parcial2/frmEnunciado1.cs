@@ -105,5 +105,10 @@ namespace Parcial2
             g.DrawLines(lapiz, y);
             g.DrawLines(lapiz2, puntos);
         }
+
+        private void frmEnunciado1_Load(object sender, EventArgs e)
+        {
+            plPrincipal.Left = (this.ClientSize.Width - plPrincipal.Width) / 2;
+        }
     }
 }

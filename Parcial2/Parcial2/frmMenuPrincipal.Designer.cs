@@ -38,13 +38,14 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.enunciado1ToolStripMenuItem,
             this.enunciado2ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1040, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1300, 68);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -52,15 +53,16 @@
             // enunciado1ToolStripMenuItem
             // 
             this.enunciado1ToolStripMenuItem.Name = "enunciado1ToolStripMenuItem";
-            this.enunciado1ToolStripMenuItem.Size = new System.Drawing.Size(104, 24);
+            this.enunciado1ToolStripMenuItem.Size = new System.Drawing.Size(230, 64);
             this.enunciado1ToolStripMenuItem.Text = "Enunciado 1";
             this.enunciado1ToolStripMenuItem.Click += new System.EventHandler(this.enunciado1ToolStripMenuItem_Click);
             // 
             // enunciado2ToolStripMenuItem
             // 
             this.enunciado2ToolStripMenuItem.Name = "enunciado2ToolStripMenuItem";
-            this.enunciado2ToolStripMenuItem.Size = new System.Drawing.Size(104, 24);
+            this.enunciado2ToolStripMenuItem.Size = new System.Drawing.Size(230, 64);
             this.enunciado2ToolStripMenuItem.Text = "Enunciado 2";
+            this.enunciado2ToolStripMenuItem.Click += new System.EventHandler(this.enunciado2ToolStripMenuItem_Click);
             // 
             // contextMenuStrip1
             // 
@@ -78,6 +80,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMenuPrincipal";
             this.Text = "Menu Principal";
+            this.Load += new System.EventHandler(this.frmMenuPrincipal_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
