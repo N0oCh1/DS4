@@ -108,7 +108,6 @@ namespace Parcial2.Clases
         // obtener informacion de la base de datos del medicamento a buscar
         public void ObtenerInfo(ComboBox cb, TextBox nombre, TextBox precio, TextBox cantidad, PictureBox pb)
         {
-            Console.WriteLine(cb.SelectedValue);
             using (ConexionDB db = new ConexionDB())
             {
                 try

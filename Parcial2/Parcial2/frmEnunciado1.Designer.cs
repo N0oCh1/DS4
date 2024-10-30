@@ -65,6 +65,8 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.plPrincipal = new System.Windows.Forms.Panel();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbGrafica)).BeginInit();
@@ -296,7 +298,7 @@
             // 
             // pbGrafica
             // 
-            this.pbGrafica.BackColor = System.Drawing.Color.Silver;
+            this.pbGrafica.BackColor = System.Drawing.Color.White;
             this.pbGrafica.ErrorImage = null;
             this.pbGrafica.ImageLocation = "ll";
             this.pbGrafica.Location = new System.Drawing.Point(13, 203);
@@ -469,10 +471,12 @@
             // 
             // plPrincipal
             // 
+            this.plPrincipal.Controls.Add(this.label22);
             this.plPrincipal.Controls.Add(this.panel1);
             this.plPrincipal.Controls.Add(this.label18);
             this.plPrincipal.Controls.Add(this.panel3);
             this.plPrincipal.Controls.Add(this.pbGrafica);
+            this.plPrincipal.Controls.Add(this.label21);
             this.plPrincipal.Controls.Add(this.label17);
             this.plPrincipal.Controls.Add(this.flowLayoutPanel2);
             this.plPrincipal.Controls.Add(this.flowLayoutPanel1);
@@ -480,6 +484,28 @@
             this.plPrincipal.Name = "plPrincipal";
             this.plPrincipal.Size = new System.Drawing.Size(1032, 821);
             this.plPrincipal.TabIndex = 16;
+            // 
+            // label21
+            // 
+            this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(287, 175);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(31, 31);
+            this.label21.TabIndex = 4;
+            this.label21.Text = "Y";
+            // 
+            // label22
+            // 
+            this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(619, 478);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(33, 31);
+            this.label22.TabIndex = 16;
+            this.label22.Text = "X";
             // 
             // frmEnunciado1
             // 
@@ -547,5 +573,7 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Panel plPrincipal;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
     }
 }
